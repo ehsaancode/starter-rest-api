@@ -62,7 +62,13 @@ app.get('/:col', async (req, res) => {
 
 // Catch all handler for all other request.
 app.use('*', (req, res) => {
-  res.json({ msg: 'ehsaan' }).end()
+  res.json({ let moviesList = [
+  "Suraj par mangal bhari",
+  "Tenet",
+  "The war with grandpa",
+  "The personal history of David Copperfield",
+  "Come Play",
+]; }).end()
 })
 
 // Start the server
